@@ -16,11 +16,14 @@ jobs:
           extended: true
 
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
-          # fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-  
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Get Theme
+        run: 
+
       - name: Build
         run: hugo --minify
 
