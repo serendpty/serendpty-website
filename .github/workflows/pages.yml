@@ -16,14 +16,11 @@ jobs:
           extended: true
 
       - name: Clone
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      # - name: Clean
-      #   run: rm -rf ./public
-        
+  
       - name: Build
         run: hugo --minify
 
