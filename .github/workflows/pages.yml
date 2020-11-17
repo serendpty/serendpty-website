@@ -21,8 +21,8 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Clean
-        run: rm -rf ./public
+      # - name: Clean
+      #   run: rm -rf ./public
         
       - name: Build
         run: hugo --minify
