@@ -16,5 +16,5 @@ $RECYCLE.BIN/
 .idea/
 .vscode/
 
-# DDS Docs Updater
-temp/
+# Drafts
+drafts/
