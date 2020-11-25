@@ -5,4 +5,4 @@ type: docs
 
 # Overview
 
-zlkvzkvnsldkvsdkvnsjkn
+The Serendipity platform
