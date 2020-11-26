@@ -3,10 +3,14 @@ headless: true
 ---
 
 - [**Home**]({{< relref "_index.md" >}})
+---
 - [**Education Project**]({{< relref "/docs/education" >}})
-    - [School API]({{< relref "/docs/education/school" >}})
-    - [Teacher API]({{< relref "/docs/education/teacher" >}})
-    - [Student API]({{< relref "/docs/education/student" >}})
-    - [Guardian API]({{< relref "/docs/education/guardian" >}})
-    - [Content API]({{< relref "/docs/education/content" >}})
-    - [Exam API]({{< relref "/docs/education/exam" >}})
+- [Architecture]({{< relref "/docs/education/architecture.md" >}})
+- [Milestones]({{< relref "/docs/education/milestones.md" >}})
+- APIs
+    - [School]({{< relref "/docs/education/apis/school_api.md" >}})
+    - [Teacher]({{< relref "/docs/education/apis/teacher_api.md" >}})
+    - [Student]({{< relref "/docs/education/apis/student_api.md" >}})
+    - [Guardian]({{< relref "/docs/education/apis/guardian_api.md" >}})
+    - [Content]({{< relref "/docs/education/apis/content_api.md" >}})
+    - [Exam]({{< relref "/docs/education/apis/exam_api.md" >}})
