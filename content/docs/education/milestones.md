@@ -12,7 +12,7 @@ title: Education > Milestones
     - [ ] Division
     - [ ] Medium
     - [ ] Identity Type
-- [ ] REST API to handle master data
+- [ ] REST API to handle master data (low priority)
 
 ## SchoolAPI
 - [ ] Populate master data
