@@ -14,6 +14,7 @@ title: Education > Milestones
     - [ ] Identity Type
 - [ ] REST API to handle master data (low priority)
 
+---
 ## SchoolAPI
 - [ ] Populate master data
     - [ ] Category

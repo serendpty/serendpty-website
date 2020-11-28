@@ -10,6 +10,7 @@ The education project comprises of several `microservices` specialized in provid
 
 ![Overall Architecture](/images/overall_architecture.svg#center)
 
+---
 ## Basic Architecture of a Microservice
 
 These microservices have 3 distinct layers
@@ -37,12 +38,14 @@ This where actual implementations to use third party libraries (by using `Adapte
 
 ![Microservice Architecture](/images/microservices_architecture.svg#center)
 
+---
 ## Request Response Cycle
 
 Each request sent to a REST service in the DDS goes through the following request response cycle.
 
 ![Request Response Cycle](/images/req_res_cycle.svg#center)
 
+---
 ## Internal Dataflow
 
 `Entities` that are defined inside the domain are used to communicate to and from the domain. This is done to decouple the domain from all other layers surrounding it and to make the domain **pluggable**. These `Entities` are simple structures defined inside the domain itself.
