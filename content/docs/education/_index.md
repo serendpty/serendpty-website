@@ -9,7 +9,7 @@ title: Education
 {{< /hint >}}
 
 {{< hint warning >}}
-**TODO:** explain what Serendipity platform is
+**TODO:** explain what Education project is
 
 use `drafts/education.md` to compose
 {{< /hint >}}
