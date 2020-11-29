@@ -7,6 +7,7 @@ headless: true
 - [**Education Project**]({{< relref "/docs/education" >}})
 - [Architecture]({{< relref "/docs/education/architecture.md" >}})
 - [Milestones]({{< relref "/docs/education/milestones.md" >}})
+- [Installation]({{< relref "/docs/education/installation" >}})
 - APIs
     - [School]({{< relref "/docs/education/apis/school_api.md" >}})
     - [Teacher]({{< relref "/docs/education/apis/teacher_api.md" >}})
