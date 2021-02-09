@@ -1,5 +1,0 @@
----
-title: Education > ContentAPI
----
-
-# ContentAPI
