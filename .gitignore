@@ -1,6 +1,10 @@
 # Hugo default output directory
 /public
-/resources/_gen/
+/resources/_gen
+
+# Node
+/node_modules
+package-lock.json
 
 ## OS Files
 # Windows
@@ -17,4 +21,7 @@ $RECYCLE.BIN/
 .vscode/
 
 # drafts
-drafts/
+/drafts
+
+# temp
+/temp

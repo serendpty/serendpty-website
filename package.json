@@ -1,0 +1,14 @@
+{
+  "name": "openapi-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openapi3-generator": "^0.13.0"
+  }
+}

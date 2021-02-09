@@ -1,0 +1,44 @@
+# {{openapi.info.title}}
+
+{{{openapi.info.descriptionAsHTML}}}
+
+## Table of Contents
+
+{{#if openapi.info.termsOfService}}
+* Terms of Service
+{{/if}}
+{{#if openapi.servers}}
+* Servers
+{{/if}}
+{{#if openapi.paths}}
+* Paths
+{{#each openapi.paths as |path pathName|}}
+{{#each path as |op opName|}}
+{{#validMethod opName}}
+  - `{{uppercase opName}}` **{{pathName}}**
+{{/validMethod}}
+{{/each}}
+{{/each}}
+{{/if}}
+{{#if openapi.components.schemas}}
+* Schemas
+{{#each openapi.components.schemas as |schema schemaName|}}
+{{#if schema.slug}}
+  - [{{schema.title}}](#{{schema.slug}})
+{{else if schema.title}}
+  - {{schema.title}}
+{{else}}
+  - {{schemaName}}
+{{/if}}
+{{/each}}
+{{/if}}
+
+{{> info}}
+
+{{> servers}}
+
+{{> security}}
+
+{{> paths }}
+
+{{> schemas }}
