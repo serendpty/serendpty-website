@@ -8,7 +8,8 @@ bookToc: false
 # bookComments: true
 ---
 
-![serendipity](https://placehold.co/500x200.svg)
+<!-- ![serendipity](https://placehold.co/400x400.svg) -->
+![serendipity](/svg/serendipity_logo.png)
 
 > This discovery, indeed, is almost of that kind which I call **Serendipity**,
 > a very expressive word, which, as I have nothing better to tell you, I shall endeavor to explain to you....

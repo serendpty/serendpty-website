@@ -1,5 +1,5 @@
 ---
-title: "Qbank"
+title: "Question Bank"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -10,4 +10,4 @@ weight: 1
 
 ![serendipity](https://placehold.co/200.svg)
 
-# QBank
+# Question Bank
