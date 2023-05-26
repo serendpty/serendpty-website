@@ -28,6 +28,7 @@ We don't try to provide large and complex systems that cover workflows from one 
 # Highlights
 
 ## The Question Bank
+![qbank](/img/qbank.png)
 
 Have you ever tried looking for past papers on the internet? Yes, there are many sources where you can find them. However, most of the time, you end up with scanned images (or scanned images compiled into **PDF** files) of papers, and the download links for these papers are buried in pages full of advertisements.
 
