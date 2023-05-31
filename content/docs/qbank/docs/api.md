@@ -8,5 +8,3 @@ bookToc: false
 # bookComments: false
 # bookSearchExclude: false
 ---
-
-{{< oai-spec url="/oai/qbank.json" api_key="" >}}
